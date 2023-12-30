@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap");
 
 *,
 *::after,
@@ -13,7 +13,7 @@ html {
 }
 
 body {
-  font-family: 'Julius Sans One', sans-serif;
+  font-family: "Julius Sans One", sans-serif;
   font-weight: 400;
   line-height: 1.7;
   box-sizing: border-box;
@@ -30,9 +30,15 @@ body {
   background-color: #000;
   background-size: cover;
   background-image: linear-gradient(to left bottom, rgba(0, 0, 0, 0.6), black),
-    url('/img/images2.jpg');
+    url("/img/images2.jpg");
   background-repeat: no-repeat;
   background-position: center;
   display: flex;
   animation-fill-mode: forwards;
+}
+
+.main__song ul {
+  width: 73rem;
+  margin-left: 4rem;
+  margin-top: 3rem;
 }
